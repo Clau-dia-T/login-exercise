@@ -1,0 +1,124 @@
+body{
+    background-color: rgb(43, 172, 231);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.caixa{
+    width: 300px;
+    margin: auto;
+    margin-top: 60px;
+    background-color: white;
+    text-align: center;
+}
+
+h2{
+    color: rgb(27, 218, 218);
+}
+
+#titulo01{
+    padding-top: 40px;
+}
+
+#titulo02{
+    padding-top: 20px;
+}
+
+input{
+    border: none;
+    width: 250px;
+}
+
+input[type=text], input[type=password], input[type=number]{
+    border-bottom: 1px solid grey;
+    margin: 5px;
+    text-align: center;
+    font-size: 15px;
+}
+
+input[type=submit], button{
+    background-color: rgb(27, 218, 218);
+    color: white;
+    border-radius: 15px;
+    margin: 30px 5px;
+    font-size: 20px;
+    transition: 30ms;
+}
+
+input[type=submit]:hover, button:hover{
+    background-color: rgb(27, 92, 109);
+}
+
+#user{
+    border-radius: 50px 0px 50px 0px;
+}
+
+#visitante{
+    border-radius: 50px;
+}
+
+#visitante input[type=number]{
+    width: 200px;
+}
+
+#entrar{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+#entrarvisitante{
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+
+#caixasaida{
+    margin-top: 20px;
+    width: 700px;
+    border-radius: 50px;
+}
+
+#ola{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    color: cyan;
+}
+
+p{
+    color: rgb(43, 172, 231);
+    margin: 0px 45px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.red{
+    color: red;
+}
+
+.green{
+    color: YellowGreen;
+}
+
+#imagem{
+    margin: auto;
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+}
+
+button{
+    border: none;
+    width: 80px;
+}
+
+.erro{
+    margin: auto;
+    margin-top: 400px;
+    text-align: center;
+}
+
+.erro > h2{
+    color: white;
+}
+
+#voltar{
+    width: 200px;
+}
